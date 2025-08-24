@@ -48,11 +48,13 @@ public class Aplic {
                 System.out.println();
                 System.out.println("Registro Academico do Aluno: " + ra);
                 System.out.println("Nota media das provas:       " + aluno.calcMediaProva());
+                System.out.println("Nota media dos trabalhos:    " + aluno.calcMediaTrab());
             }
             else if(opcao == 2){
                 System.out.println();
-                System.out.println("Registro Academico do Aluno: " + ra);
+                System.out.println("Registro Academico do Aluno: " + ra);                
                 System.out.println("Nota media dos trabalhos:    " + aluno.calcMediaTrab());
+                System.out.println("Nota media das provas:       " + aluno.calcMediaProva());
             }
             else if(opcao == 3){ 
                 System.out.println();
